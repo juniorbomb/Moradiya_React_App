@@ -4,10 +4,10 @@ var express = require("express");
 var router = express.Router();
 
 const pusher = new Pusher({
-    appId: "1376293",
-    key: "1e3072aced3b02bfb912",
-    secret: "266e71ee3b8ef97f742e",
-    cluster: "ap2",
+    appId: "<Pusher App ID>",
+    key: "<Pusher Api Key>",
+    secret: "<Pusher Secret>",
+    cluster: "<Pusher cluster>",
     useTLS: true,
 });
 var channel = "events_to_be_shown";
